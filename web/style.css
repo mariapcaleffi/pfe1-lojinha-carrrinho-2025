@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+    body {
+      background-color: #382e31;
+      color: #191516;
+      font-family: 'Cal Sans', sans-serif;
+    }
+    header {
+      background-color: #e8c0c9;
+    }
+    header a {
+      color: #191516;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    header a:hover {
+      color: #ac274f;
+    }
+    .card {
+      background-color: #e8c0c9;
+      border: none;
+      border-radius: 0.75rem;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      cursor: pointer;
+    }
+    .card-title {
+      color: #191516;
+    }
+    .btn-cart {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #ac274f;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      color: white;
+      font-size: 24px;
+      z-index: 999;
+    }
+    .modal-content {
+      background-color: #e8c0c9;
+      color: #191516;
+    }
+
+footer{
+    background-color: #382e31;
+}
